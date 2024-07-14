@@ -3,121 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Compleja</title>
+    <title>Mensaje Especial</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1em 0;
-            text-align: center;
-        }
-        nav {
             display: flex;
             justify-content: center;
-            gap: 15px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 0.5em 1em;
-        }
-        nav a:hover {
-            background-color: #555;
-            border-radius: 5px;
-        }
-        .hero {
-            background-image: url('https://via.placeholder.com/1500x500');
-            background-size: cover;
-            background-position: center;
-            color: white;
-            text-align: center;
-            padding: 100px 20px;
-        }
-        .hero h1 {
-            font-size: 3em;
+            align-items: center;
+            height: 100vh;
             margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ffccff, #ff99cc);
+            color: #333;
+            text-align: center;
         }
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
+        .message {
             background-color: white;
+            padding: 20px;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        .columns {
-            display: flex;
-            gap: 20px;
+        .message h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #e60073;
         }
-        .column {
-            flex: 1;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border-radius: 5px;
-            box-shadow: 0 0 5px rgba(0,0,0,0.1);
-        }
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 10px;
-            margin: 20px 0;
-        }
-        .gallery img {
-            width: 100%;
-            border-radius: 5px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
+        .message p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+            color: #ff0066;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Mi Página Compleja</h1>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Servicios</a>
-            <a href="#">Proyectos</a>
-            <a href="#">Contacto</a>
-        </nav>
-    </header>
-    <section class="hero">
-        <h1>Bienvenido a Mi Página</h1>
-        <p>Explora nuestros servicios y proyectos</p>
-    </section>
-    <div class="container">
-        <div class="columns">
-            <div class="column">
-                <h2>Servicios</h2>
-                <p>Ofrecemos una variedad de servicios para ayudarte a alcanzar tus objetivos.</p>
-            </div>
-            <div class="column">
-                <h2>Proyectos</h2>
-                <p>Descubre algunos de nuestros proyectos recientes y cómo hemos ayudado a nuestros clientes.</p>
-            </div>
-            <div class="column">
-                <h2>Contacto</h2>
-                <p>Ponte en contacto con nosotros para más información o para solicitar un presupuesto.</p>
-            </div>
-        </div>
-        <h2>Galería</h2>
-        <div class="gallery">
-            <img src="https://via.placeholder.com/400" alt="Imagen 1">
-            <img src="https://via.placeholder.com/400" alt="Imagen 2">
-            <img src="https://via.placeholder.com/400" alt="Imagen 3">
-            <img src="https://via.placeholder.com/400" alt="Imagen 4">
-        </div>
+    <div class="message">
+        <h1>¡Que pases un hermoso día, Kay!</h1>
+        <p>Aquí tu amor</p>
     </div>
-    <footer>
-        <p>&copy; 2024 Mi Página Compleja</p>
-    </footer>
 </body>
 </html>
