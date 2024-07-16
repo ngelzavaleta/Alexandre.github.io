@@ -1,43 +1,36 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mensaje Especial</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #ffccff, #ff99cc);
-            color: #333;
-            text-align: center;
-        }
-        .message {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .message h1 {
-            margin: 0;
-            font-size: 2em;
-            color: #e60073;
-        }
-        .message p {
-            font-size: 1.2em;
-            margin: 10px 0 0;
-            color: #ff0066;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>heart letter by alexx_deev</title>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-    <div class="message">
-        <h1>¡Que pases un hermoso día, Kay!</h1>
-        <p>Aquí tu amor</p>
+<div class="envlope-wrapper">
+    <div id="envelope" class="close">
+        <div class="front flap"></div>
+        <div class="front pocket"></div>
+        <div class="letter">
+            <div class="words line1"></div>
+            <div class="words line2"></div>
+            <div class="words line3"></div>
+            <div class="words line4"></div>
+        </div>
+        <div class="hearts">
+            <div class="heart a1"></div>
+            <div class="heart a2"></div>
+            <div class="heart a3"></div>
+        </div>
     </div>
+</div>
+<div class="reset">
+    <button id="open">Open</button>
+    <button id="reset">Reset</button>
+</div>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+
 </body>
 </html>
